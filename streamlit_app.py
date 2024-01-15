@@ -28,5 +28,5 @@ streamlit.dataframe(fruits_to_show)
 
 
 
-streamlit.header ('By: Chef Bert Lagro')
+streamlit.subheader ('By: Chef Bert Lagro')
 streamlit.video("https://youtu.be/EdSLy-CyHes", format='video/mp4', start_time=0)
