@@ -11,5 +11,13 @@ streamlit.text ('🥑🍞 Avocado Toast')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
+import pandas
+
+
+
+
+
+
+
 streamlit.header ('By: Chef Bert Lagro')
-streamlit.video("https://youtu.be/wH-TyUFgdMs", format='video/mp4', start_time=0)
+streamlit.video("https://youtu.be/EdSLy-CyHes", format='video/mp4', start_time=0)
