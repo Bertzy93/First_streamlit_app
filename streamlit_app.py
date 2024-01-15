@@ -12,4 +12,4 @@ streamlit.text ('🥑🍞 Avocado Toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 streamlit.header ('By: Chef Bert Lagro')
-st.video('https://www.youtube.com/watch?v=E744jOWhyow', format='video/mp4', start_time=0)
+st.video("https://www.youtube.com/watch?v=E744jOWhyow", format='video/mp4', start_time=0)
