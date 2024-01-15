@@ -22,4 +22,4 @@ streamlit.dataframe(my_fruit_list)
 
 
 streamlit.header ('By: Chef Bert Lagro')
-streamlit.video("https://youtu.be/EdSLy-CyHes", format='video/mp4', start_time=0, autoplay=True)
+streamlit.video("https://youtu.be/EdSLy-CyHes", format='video/mp4', start_time=0)
