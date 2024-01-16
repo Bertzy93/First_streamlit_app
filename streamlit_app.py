@@ -42,7 +42,7 @@ String2 = pandas.json_normalize(String1.json())
 streamlit.dataframe(String2)
 
 #don't run anything past here while we troubleshoot
-streamlit.stop()
+
 
 #requirement.txt
 # snowflake-connector-phyton
@@ -63,6 +63,7 @@ my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 streamlit.subheader ('By: Chef Bert Lagro')
 streamlit.video("https://youtu.be/EdSLy-CyHes", format='video/mp4', start_time=0)
+streamlit.stop()
 
 
 
