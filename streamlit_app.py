@@ -38,7 +38,7 @@ String2 = pandas.json_normalize(String1.json())
 streamlit.dataframe(String2)
 
 #requirement.txt
-snowflake-connector-phyton
+# snowflake-connector-phyton
 import snowflake.connector
 
 streamlit.subheader ('By: Chef Bert Lagro')
