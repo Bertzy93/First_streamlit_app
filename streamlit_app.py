@@ -40,7 +40,7 @@ streamlit.dataframe(String2)
 
 #requirement.txt
 # snowflake-connector-phyton
-# import snowflake.connector
+import snowflake.connector
 
 # import snowflakes
 
