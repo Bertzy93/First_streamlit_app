@@ -44,20 +44,6 @@ try:
           back_from_function = get_fruityvice_data(fruit_choice)
           streamlit.dataframe(back_from_function)
 
-
-
-# streamlit.header("Fruityvice Fruit Advice!")
-# try:
-#   fruit_choice = streamlit.text_input('What fruit would you like information about?')
-#   if not fruit_choice:
-#        streamlit.error("Please select a fruit to get information")
-#   else:
-#       String1 = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
-#       String2 = pandas.json_normalize(String1.json())
-#       streamlit.dataframe(String2)
-# except URLError as e:
-#     streamlit.error()
-
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
 my_cur.execute("select * from fruit_load_list")
@@ -74,4 +60,21 @@ my_cur.execute("insert into fruit_load_list values ('"+ add_my_fruit +"')")
 streamlit.subheader ('By: Chef Bert Lagro')
 streamlit.video("https://youtu.be/EdSLy-CyHes", format='video/mp4', start_time=0)
 streamlit.stop()
+
+
+
+
+
+# streamlit.header("Fruityvice Fruit Advice!")
+# try:
+#   fruit_choice = streamlit.text_input('What fruit would you like information about?')
+#   if not fruit_choice:
+#        streamlit.error("Please select a fruit to get information")
+#   else:
+#       String1 = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
+#       String2 = pandas.json_normalize(String1.json())
+#       streamlit.dataframe(String2)
+# except URLError as e:
+#     streamlit.error()
+
 
