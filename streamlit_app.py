@@ -37,7 +37,9 @@ String2 = pandas.json_normalize(String1.json())
 # write your own comment - what does this do?
 streamlit.dataframe(String2)
 
-# import snowflake.connector
+#requirement.txt
+snowflake-connector-phyton
+import snowflake.connector
 
 streamlit.subheader ('By: Chef Bert Lagro')
 streamlit.video("https://youtu.be/EdSLy-CyHes", format='video/mp4', start_time=0)
