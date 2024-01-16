@@ -1,4 +1,5 @@
 import streamlit
+import snowflake.connector
 
 streamlit.title ('My Parents New healthy Diner')
 
@@ -39,7 +40,7 @@ streamlit.dataframe(String2)
 
 #requirement.txt
 # snowflake-connector-phyton
-import snowflake.connector
+
 
 streamlit.subheader ('By: Chef Bert Lagro')
 streamlit.video("https://youtu.be/EdSLy-CyHes", format='video/mp4', start_time=0)
