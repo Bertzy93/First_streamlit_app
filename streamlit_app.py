@@ -42,7 +42,7 @@ streamlit.dataframe(String2)
 # snowflake-connector-phyton
 # import snowflake.connector
 
-import snowflakes
+# import snowflakes
 
 streamlit.subheader ('By: Chef Bert Lagro')
 streamlit.video("https://youtu.be/EdSLy-CyHes", format='video/mp4', start_time=0)
