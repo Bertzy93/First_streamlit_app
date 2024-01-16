@@ -27,8 +27,22 @@ streamlit.dataframe(fruits_to_show)
 
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text ('fruityvice_response')
 streamlit.text('fruityvice_response')
+
+{
+    "name": "Watermelon",
+    "id": 25,
+    "family": "Cucurbitaceae",
+    "order": "Cucurbitales",
+    "genus": "Citrullus",
+    "nutritions": {
+        "calories": 30,
+        "fat": 0.2,
+        "sugar": 6,
+        "carbohydrates": 8,
+        "protein": 0.6
+    }
+}
 
 
 
