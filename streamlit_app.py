@@ -30,10 +30,10 @@ streamlit.header("Fruityvice Fruit Advice!")
 import requests
 String1 = requests.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.text(String1.json())
-# # write your own comment -what does the next line do? 
-# String2 = pandas.json_normalize(fruityvice_response.json())
-# # write your own comment - what does this do?
-# streamlit.dataframe(String2)
+# Pass String1 to String2
+String2 = pandas.json_normalize(String1.json())
+# write your own comment - what does this do?
+streamlit.dataframe(String2)
 
 
 
