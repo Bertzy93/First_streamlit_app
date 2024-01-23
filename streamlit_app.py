@@ -59,7 +59,7 @@ my_cur.execute("insert into fruit_load_list values ('"+ add_my_fruit +"')")
 
 # import snowflakes
 
-streamlit.subheader ('By: Chef Bert Lagro')
+streamlit.subheader ('By: Chef Bert Oglinola')
 streamlit.video("https://youtu.be/HQtFR3mhzOY", format='video/mp4', start_time=0)
 
 streamlit.stop()
