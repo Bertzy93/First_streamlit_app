@@ -5,7 +5,7 @@ streamlit.title("Zena's Amazing Athleisure Catalog")
 
 
 
-Sweat_list = streamlit.select("Select Sweat Clothings:", 
+Sweat_list = streamlit.singleselect("Select Sweat Clothings:", 
 [
 "90s tracksuit"
 , "burgundy sweatsuit"
