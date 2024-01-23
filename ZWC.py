@@ -3,6 +3,8 @@ import snowflake.connector
 import pandas
 streamlit.title('Zena\'s Amazing Athleisure Catalog')
 
+
+streamlit.header("90s_tracksuit")
 streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png")
 streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/burgundy_sweatsuit.png")
 streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/charcoal_grey_sweatsuit.png")
