@@ -62,6 +62,9 @@ my_cur.execute("insert into fruit_load_list values ('"+ add_my_fruit +"')")
 streamlit.subheader ('Music By: DJ B')
 streamlit.video("https://youtu.be/HQtFR3mhzOY", format='video/mp4', start_time=0)
 
+streamlit.subheader ('IoT Bridge & Snowflake')
+streamlit.video("C:\Users\RobertOgalinola\Documents\Snagit\Snowfkale_IoT Bridge.mp4", format='video/mp4', start_time=0)
+
 streamlit.stop()
 
 
