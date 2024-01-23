@@ -5,9 +5,9 @@ streamlit.title('Zena\'s Amazing Athleisure Catalog')
 
 
 Sweat_list = pandas.read_xml("https://uni-klaus.s3.us-west-2.amazonaws.com")
-Sweat_list = Sweat_list.set_index('90s_tracksuit')
-Sweat_selected = streamlit.multiselect("Pick some Sweat:", list (Sweat_list.index),['burgundy_sweatsuit','charcoal_grey_sweatsuit'])
-Sweat_to_show = Sweat_list.loc[Sweat_selected]
+# Sweat_list = Sweat_list.set_index('90s_tracksuit')
+# Sweat_selected = streamlit.multiselect("Pick some Sweat:", list (Sweat_list.index),['burgundy_sweatsuit','charcoal_grey_sweatsuit'])
+# Sweat_to_show = Sweat_list.loc[Sweat_selected]
 
 
 streamlit.header("90s tracksuit")
