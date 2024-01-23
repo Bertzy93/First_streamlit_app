@@ -4,9 +4,9 @@ import pandas
 streamlit.title('Zena\'s Amazing Athleisure Catalog')
 
 
-Sweat_list = pandas.read_csv(90s_tracksuit,burgundy_sweatsuit,charcoal_grey_sweatsuit,forest_green_sweatsuit,navy_blue_sweatsuit)
-Sweat_selected = streamlit.multiselect("Pick some Sweat:", list (Sweat_list.index),['burgundy_sweatsuit','charcoal_grey_sweatsuit'])
-Sweat_to_show = Sweat_list.loc[Sweat_selected]
+
+Sweat_selected = streamlit.multiselect("Buy", ["milk", "apples", "potatoes"])
+# Sweat_to_show = Sweat_list.loc[Sweat_selected]
 
 
 streamlit.header("90s tracksuit")
