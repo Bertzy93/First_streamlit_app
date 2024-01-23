@@ -32,44 +32,36 @@ elif Sweat_list == "burgundy sweatsuit":
     streamlit.header("burgundy sweatsuit")
     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/burgundy_sweatsuit.png")
 
-# elif
-#     Sweat_list == "charcoal grey sweatsuit":
-#     streamlit.header("charcoal grey sweatsuit")
-#     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/charcoal_grey_sweatsuit.png")
+elif Sweat_list == "charcoal grey sweatsuit":
+    streamlit.header("charcoal grey sweatsuit")
+    streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/charcoal_grey_sweatsuit.png")
 
-# elif
-#     Sweat_list == "forest green sweatsuit":
-#     streamlit.header("forest green sweatsuit")
-#     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/forest_green_sweatsuit.png")
+elif Sweat_list == "forest green sweatsuit":
+    streamlit.header("forest green sweatsuit")
+    streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/forest_green_sweatsuit.png")
 
-# elif
-#     Sweat_list == "navy blue sweatsuit":
-#     streamlit.header("navy blue sweatsuit")
-#     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/navy_blue_sweatsuit.png")
+elif Sweat_list == "navy blue sweatsuit":
+    streamlit.header("navy blue sweatsuit")
+    streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/navy_blue_sweatsuit.png")
 
-# elif
-#     Sweat_list == "orange sweatsuit":
-#     streamlit.header("orange sweatsuit")
-#     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/orange_sweatsuit.png")
-# elif
-#     Sweat_list == "purple sweatsuit":
-#     streamlit.header("purple sweatsuit")
-#     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/purple_sweatsuit.png")
+elif Sweat_list == "orange sweatsuit":
+    streamlit.header("orange sweatsuit")
+    streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/orange_sweatsuit.png")
+elif Sweat_list == "purple sweatsuit":
+    streamlit.header("purple sweatsuit")
+    streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/purple_sweatsuit.png")
 
-# elif
-#     Sweat_list == "red sweatsuit":
-#     streamlit.header("red sweatsuit")
-#     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/red_sweatsuit.png")
+elif Sweat_list == "red sweatsuit":
+    streamlit.header("red sweatsuit")
+    streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/red_sweatsuit.png")
 
-# elif
-#     Sweat_list == "royal blue sweatsuit":
-#     streamlit.header("royal blue sweatsuit")
-#     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/royal_blue_sweatsuit.png")
+elif Sweat_list == "royal blue sweatsuit":
+    streamlit.header("royal blue sweatsuit")
+    streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/royal_blue_sweatsuit.png")
 
-# elif
-#     Sweat_list == "yellow sweatsuit":
-#     streamlit.header("yellow sweatsuit")
-#     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/yellow_sweatsuit.png")
+elif Sweat_list == "yellow sweatsuit":
+    streamlit.header("yellow sweatsuit")
+    streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/yellow_sweatsuit.png")
 else:
     streamlit.header("NO SELECTION!!! PLEASE SELECT!!!")
 
