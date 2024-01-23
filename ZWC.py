@@ -5,7 +5,7 @@ streamlit.title("Zena's Amazing Athleisure Catalog")
 
 
 
-Sweat_selected = streamlit.multiselect("Select Sweat Clothings:", 
+Sweat_listed = streamlit.multiselect("Select Sweat Clothings:", 
 [
 "90s tracksuit"
 , "burgundy sweatsuit"
@@ -19,10 +19,12 @@ Sweat_selected = streamlit.multiselect("Select Sweat Clothings:",
 ,"yellow sweatsuit"
 ]
 )
+Sweat_listed as Selected
+# Sweat_to_show = Sweat_list.loc[Sweat_listed]
 
 # streamlit.header(Sweat_selected)
 
-IF streamlit.text(Sweat_selected) == "90s tracksuit":
+IF Selected == "90s tracksuit":
 streamlit.header("90s tracksuit")
 streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png")
 ELSE:
