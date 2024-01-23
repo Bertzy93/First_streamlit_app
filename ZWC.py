@@ -28,8 +28,7 @@ if Sweat_list == "90s tracksuit":
     streamlit.header("90s tracksuit")
     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png")
 
-elif
-    Sweat_list == "burgundy sweatsuit":
+elif Sweat_list == "burgundy sweatsuit":
     streamlit.header("burgundy sweatsuit")
     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/burgundy_sweatsuit.png")
 
