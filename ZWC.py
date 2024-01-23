@@ -22,7 +22,7 @@ Sweat_selected = streamlit.multiselect("Select Sweat Clothings:",
 
 # streamlit.header(Sweat_selected)
 
-IF streamlit.header(Sweat_selected) == "90s tracksuit":
+IF streamlit.text(Sweat_selected) == "90s tracksuit":
 streamlit.header("90s tracksuit")
 streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png")
 ELSE:
