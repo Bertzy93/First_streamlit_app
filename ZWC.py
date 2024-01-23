@@ -19,8 +19,8 @@ Sweat_listed = streamlit.multiselect("Select Sweat Clothings:",
 ,"yellow sweatsuit"
 ]
 )
-Sweat_listed as Selected
-# Sweat_to_show = Sweat_list.loc[Sweat_listed]
+# Sweat_listed as Selected
+Sweat_to_show = Sweat_list.loc[Sweat_listed]
 
 # streamlit.header(Sweat_selected)
 
