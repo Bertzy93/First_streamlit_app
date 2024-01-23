@@ -2,7 +2,6 @@ import streamlit
 import snowflake.connector
 import pandas
 streamlit.title('Zena\'s Amazing Athleisure Catalog')
+import imageio as Imagereader
 
-# connect to snowflake
-my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-my_cur = my_cnx.cursor()
+img = Imagereader.imread('https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png')
