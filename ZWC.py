@@ -25,11 +25,11 @@ Sweat_list = streamlit.selectbox("Select Sweat Clothings:",
 streamlit.text(Sweat_list)
 
 if Sweat_list == "90s tracksuit":
-streamlit.header("90s tracksuit")
-streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png")
+    streamlit.header("90s tracksuit")
+    streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png")
 
 else:
-streamlit.header("NO SELECTION!!! PLEASE SELECT!!!")
+    streamlit.header("NO SELECTION!!! PLEASE SELECT!!!")
 
 # streamlit.header("90s tracksuit")
 # streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png")
