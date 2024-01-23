@@ -64,7 +64,6 @@ streamlit.video("https://youtu.be/HQtFR3mhzOY", format='video/mp4', start_time=0
 
 streamlit.subheader ('IoT Bridge & Snowflake')
 streamlit.video("C:\Users\RobertOgalinola\Documents\Snagit\Snowfkale_IoT Bridge.mp4", format='video/mp4', start_time=0)
-
 streamlit.stop()
 
 
