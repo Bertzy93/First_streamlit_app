@@ -27,6 +27,7 @@ streamlit.text(Sweat_list)
 if Sweat_list == "90s tracksuit":
     streamlit.header("90s tracksuit")
     streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png")
+    streamlit.subheader("Price: $500")
 
 elif Sweat_list == "burgundy sweatsuit":
     streamlit.header("burgundy sweatsuit")
