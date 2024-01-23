@@ -1,12 +1,25 @@
 import streamlit
 import snowflake.connector
 import pandas
-streamlit.title('Zena\'s Amazing Athleisure Catalog')
+streamlit.title('Zena's Amazing Athleisure Catalog')
 
 
 
-Sweat_selected = streamlit.multiselect("Buy", ["milk", "apples", "potatoes"])
-# Sweat_to_show = Sweat_list.loc[Sweat_selected]
+Sweat_selected = streamlit.multiselect("Select Sweat Clothings:", 
+[
+"90s tracksuit"
+, "burgundy sweatsuit"
+, "charcoal grey sweatsuit"
+,"forest green sweatsuit"
+,"navy blue sweatsuit"
+,"orange sweatsuit"
+,"purple sweatsuit"
+,"red sweatsuit"
+,"royal blue sweatsuit"
+,"yellow sweatsuit"
+]
+)
+
 
 
 streamlit.header("90s tracksuit")
