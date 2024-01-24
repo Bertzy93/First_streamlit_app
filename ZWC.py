@@ -75,6 +75,11 @@ elif Sweat_list == "yellow sweatsuit":
 else:
     streamlit.header("NO SELECTION!!! PLEASE SELECT!!!")
 
+
+
+streamlit.subheader ('Here is some music made for you!!!')
+streamlit.video("https://youtu.be/HQtFR3mhzOY", format='video/mp4', start_time=0)
+
 # streamlit.header("90s tracksuit")
 # streamlit.image("https://uni-klaus.s3.us-west-2.amazonaws.com/clothing/90s_tracksuit.png")
 
